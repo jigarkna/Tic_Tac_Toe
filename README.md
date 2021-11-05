@@ -1,7 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Deployment instructions
+
+1. connect to rails server
+2. goto localhost/3000/admin/login page
+3. Login and start the game
+4. Reset and Logout can be done from the game webpage
+* 
 
 Things you may want to cover:
 
@@ -19,6 +24,4 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+...
