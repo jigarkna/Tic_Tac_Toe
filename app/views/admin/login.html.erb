@@ -1,0 +1,42 @@
+<link rel="stylesheet"
+		type="text/css" href="log.css">
+<h1><strong>Welcome to the Game</strong></h1>
+
+
+
+<div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Log in</h2>
+
+  <div class="login-container">
+    
+	<h4><%= flash[:notice] %></h4>
+<br>
+
+<%= form_with do |form| %>
+
+<div class="field">
+<%= form.text_field :username , placeholder: "Username"%>
+</div>
+
+<div class="field">
+<%= form.password_field :password , placeholder: "Password"%>
+</div>
+
+<br>
+
+<%= form.submit "Login" %>
+
+<% end %>
+	
+  </div>
+</div>
+
+Player Account
+<hr>
+<strong>User:</strong> ADAM<br>
+<strong>Password:</strong> PASS1<br>
+
+<strong>User:</strong> EVE<br>
+<strong>Password:</strong> PASS2<br>

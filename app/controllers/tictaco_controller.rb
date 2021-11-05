@@ -1,0 +1,2 @@
+class TictacoController < ApplicationController
+end
